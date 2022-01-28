@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//structure of a node in a Linked list.
+//struct for a node
 type node struct {
 	data int //refers to data and dataype
 	next *node
@@ -123,8 +123,8 @@ func main() {
 	l.Insertatlast(15)
 	l.Insertatlast(17)
 	l.Print()
-	//	l.Deleteatparticularposition(3)   //working fine
-	//l.RemoveFront()                       //working fine
+	l.Deleteatparticularposition(3) //working fine
+	l.RemoveFront()                 //working fine
 	l.Insertatparticularposition(2, 40)
 	l.Print()
 

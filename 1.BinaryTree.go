@@ -47,6 +47,5 @@ func main() {
 	tree.Insert(17)
 	tree.Insert(25)
 	tree.Insert(24)
-	fmt.Println("Hello")
 	tree.Print()
 }
